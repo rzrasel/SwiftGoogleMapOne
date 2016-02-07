@@ -10,9 +10,11 @@ import UIKit
 import GoogleMaps
 
 class ViewController: UIViewController, GMSMapViewDelegate {
+    //|------------------------------------|
     var googleMapView: GMSMapView!
     @IBOutlet var sysGoogleMapView: GMSMapView!
     var marker = GMSMarker()
+    //|------------------------------------|
     //|~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~|
     override func viewDidLoad() {
         super.viewDidLoad()
